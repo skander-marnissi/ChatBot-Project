@@ -11,7 +11,7 @@ git clone https://github.com/SkanderMarnissi/ChatBot-Project/
 Then type 
 
 ```bash
-cd ChatBot_Project
+cd ChatBot-Project
 cd BackChatBot
 pip install -r requirements.txt
 ```
@@ -21,8 +21,11 @@ pip install -r requirements.txt
 ### The program takes a json file "intents.json" as input which contains four parameters: 
 
 **tags:It's like the sent message summary id that will be predicted from the model it self.**
+
 **patterns:The set of possible patterns with which we can predict the tags(after processing)** 
+
 **responses:The set of dif fined responses when the tag of the sent message is identified.**
+
 **context_set:Optional parameter to set the context of the message(to have more accurate results)**
 
 *Note: you can change the patterns, tags and answers to train your model on your particular subject.*
